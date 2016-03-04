@@ -19,7 +19,7 @@ task :update do
     system("cd bootstrap-datepicker-src && git checkout #{checkout_branch}")
   end
 
-  system("cp bootstrap-datepicker-src/dist/css/bootstrap-datepicker.css vendor/assets/stylesheets/bootstrap-datepicker.css")
+  system("cp bootstrap-datepicker-src/dist/css/bootstrap-datepicker.scss vendor/assets/stylesheets/bootstrap-datepicker.scss")
   system("cp bootstrap-datepicker-src/dist/css/bootstrap-datepicker3.css vendor/assets/stylesheets/bootstrap-datepicker3.css")
   system("cp bootstrap-datepicker-src/dist/js/bootstrap-datepicker.js vendor/assets/javascripts/bootstrap-datepicker/core.js")
   system("cp bootstrap-datepicker-src/js/locales/*.js vendor/assets/javascripts/bootstrap-datepicker/locales/")
