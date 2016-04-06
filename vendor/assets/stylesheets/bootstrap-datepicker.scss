@@ -322,6 +322,28 @@
 .datepicker table tr td.active.disabled:hover.active {
   background-color: #003399 \9;
 }
+
+
+#datepicker {
+  .form-control:focus {
+    border-color: #31beeb;
+    outline: 0 none;
+  }
+}
+
+#start-date-btn,
+#end-date-btn {
+  &:hover {
+    color: #31beeb;
+    text-decoration: underline;
+  }
+
+  &.active {
+    color: #31beeb;
+    text-decoration: underline;
+  }
+}
+
 .datepicker table tr td span {
   display: block;
   width: 23%;
