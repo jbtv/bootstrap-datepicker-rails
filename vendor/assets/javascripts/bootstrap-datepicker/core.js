@@ -2087,7 +2087,7 @@
 		'<button type="button" id="week-button" class="btn btn-primary">Week</button>'+
 		'<button type="button" id="month-button" class="btn btn-primary">Month</button>'+
 		'<button type="button" id="custom-range-button" class="btn btn-primary">Custom</button>'+
-		'<p class="instruction-text">Select <b>Week</b> or <b>Month</b> for a fixed range or select <b>Custom</b> for a custom range.</p>'+
+		'<p class="instruction-text"><b>Week</b> range selected by default.</p>'+
 		'</div>'+
 		'<div>'+
 		'<button type="button" id="clear-button" class="btn btn-primary" style="margin-left: 30px; margin-right: 20px;">Clear</button>'+
